@@ -1,0 +1,18 @@
+package cn.csg.core.common.mapper.basics;
+
+import cn.csg.core.common.mapper.defined.CustomUpdateMapper;
+import tk.mybatis.mapper.common.Marker;
+import tk.mybatis.mapper.common.base.update.UpdateByPrimaryKeyMapper;
+import tk.mybatis.mapper.common.base.update.UpdateByPrimaryKeySelectiveMapper;
+import tk.mybatis.mapper.common.condition.UpdateByConditionMapper;
+import tk.mybatis.mapper.common.condition.UpdateByConditionSelectiveMapper;
+import tk.mybatis.mapper.common.example.UpdateByExampleSelectiveMapper;
+
+public interface BaseUpdateMapper<T> extends Marker,
+        UpdateByPrimaryKeyMapper<T>,
+        UpdateByPrimaryKeySelectiveMapper<T>,
+        UpdateByConditionMapper<T>,
+        UpdateByConditionSelectiveMapper<T>,
+        UpdateByExampleSelectiveMapper<T>,
+        CustomUpdateMapper<T> {
+}

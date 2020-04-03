@@ -1,0 +1,9 @@
+.idea/*
+*.iml
+*.class
+*.yml
+target/*
+# Project exclude paths
+/db-spot-business/db-spot-business-authority/target/
+/db-spot-business/db-spot-business-main/target/
+/db-spot-core/db-spot-core-common/target/
