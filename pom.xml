@@ -20,7 +20,7 @@
         <project.build.targetVersion>1.8</project.build.targetVersion>
         <javadoc.version>2.9.1</javadoc.version>
         <javasource.version>3.0.1</javasource.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <commonlog.version>1.2</commonlog.version>
         <log4j.version>1.2.17</log4j.version>
         <slf4j.version>1.7.9</slf4j.version>
